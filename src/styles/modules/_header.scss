@@ -1,13 +1,17 @@
 .header {
 	display: flex;
 	background-color: #FCF8F3;
-	height: 10vh;
+	height: 80px;
 
 	&__logo {
 		width: 15%;
 		background-color: white;
 		padding-top: 20px;
-		padding-left: 30px;
+
+		img {
+			width: 90%;
+			margin-left: 5%;
+		}
 	}
 
 	&__search {

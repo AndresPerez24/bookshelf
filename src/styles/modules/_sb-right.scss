@@ -1,7 +1,7 @@
 .sb-right {
     width: 15%;
     background-color: #353132;
-    height: 90vh;
+    height: calc(100vh - 80px);
     padding-top: 40px;
 
     &__list {
