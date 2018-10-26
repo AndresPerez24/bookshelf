@@ -1,0 +1,53 @@
+.content {
+    width: 70%;
+    padding-top: 40px;
+    height: 90vh;
+    overflow: scroll;
+
+    &__title {
+        font-size: 20px;
+    }
+
+    &__filter {
+        font-size: 14px;
+        color: #979797;
+
+        &--line {
+            position: relative;
+            margin-right: 15px;
+            padding-right: 15px;
+
+            &:after {
+                content: "";
+                position: absolute;
+                height: 20px;
+                width: 1px;
+                background-color: #979797;
+                right: 0;
+                bottom: 50%;
+                transform: translateY(50%);
+            }
+        }
+    }
+
+    &__th {
+        font-size: 18px;
+        color: #6EC1E4;
+    }
+
+    &__item {
+        width: 20%;
+        margin-bottom: 50px;
+    }
+
+    &__book-title {
+        font-size: 15px;
+        color: #484848;
+        margin: 15px 0 5px;
+    }
+
+    &__author {
+        font-size: 13px;
+        color: #AEAEAE;
+    }
+}
